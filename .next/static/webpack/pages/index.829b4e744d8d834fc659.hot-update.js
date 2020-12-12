@@ -14,12 +14,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _index_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.module.css */ "./pages/index.module.css");
+/* harmony import */ var _index_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_module_css__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
 var _jsxFileName = "C:\\Users\\Marolla\\Desktop\\primeiro-projeto-next\\pages\\index.js",
     _this = undefined,
     _s = $RefreshSig$();
+
 
 
 
@@ -31,26 +34,28 @@ var index = function index() {
       counter = _React$useState2[0],
       setCounter = _React$useState2[1];
 
+  console.log('oi');
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("h1", {
       children: "Hello World"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 10,
       columnNumber: 7
     }, _this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("button", {
+      className: _index_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.button,
       onClick: function onClick() {
-        return setcounter(counter + 1);
+        return setCounter(counter + 1);
       },
       children: ["Adicionar ", counter]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 11,
       columnNumber: 7
     }, _this), counter]
   }, void 0, true, {
     fileName: _jsxFileName,
-    lineNumber: 7,
+    lineNumber: 9,
     columnNumber: 5
   }, _this);
 };
@@ -119,4 +124,4 @@ _s(index, "mgO7WMHyhiBnLtH7uw/qAj2Cy9A=");
 /***/ })
 
 })
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOlsiaW5kZXgiLCJSZWFjdCIsInVzZVN0YXRlIiwiY291bnRlciIsInNldENvdW50ZXIiLCJzZXRjb3VudGVyIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBOztBQUVBLElBQU1BLEtBQUssR0FBRyxTQUFSQSxLQUFRLEdBQU07QUFBQTs7QUFBQSx3QkFDWUMsNENBQUssQ0FBQ0MsUUFBTixDQUFlLENBQWYsQ0FEWjtBQUFBO0FBQUEsTUFDWEMsT0FEVztBQUFBLE1BQ0ZDLFVBREU7O0FBR2xCLHNCQUNFO0FBQUEsNEJBQ0U7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsYUFERixlQUVFO0FBQVEsYUFBTyxFQUFFO0FBQUEsZUFBTUMsVUFBVSxDQUFDRixPQUFPLEdBQUcsQ0FBWCxDQUFoQjtBQUFBLE9BQWpCO0FBQUEsK0JBQ2FBLE9BRGI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGFBRkYsRUFLR0EsT0FMSDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsV0FERjtBQVNELENBWkQ7O0dBQU1ILEs7O0FBY1NBLG9FQUFmIiwiZmlsZSI6InN0YXRpYy93ZWJwYWNrL3BhZ2VzL2luZGV4LjBmNTNkMDg4MjE2OWJhYTYwZWQ3LmhvdC11cGRhdGUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xyXG5cclxuY29uc3QgaW5kZXggPSAoKSA9PiB7XHJcbiAgY29uc3QgW2NvdW50ZXIsIHNldENvdW50ZXJdID0gUmVhY3QudXNlU3RhdGUoMCk7XHJcblxyXG4gIHJldHVybiAoXHJcbiAgICA8ZGl2PlxyXG4gICAgICA8aDE+SGVsbG8gV29ybGQ8L2gxPlxyXG4gICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHNldGNvdW50ZXIoY291bnRlciArIDEpfT5cclxuICAgICAgICBBZGljaW9uYXIge2NvdW50ZXJ9XHJcbiAgICAgIDwvYnV0dG9uPlxyXG4gICAgICB7Y291bnRlcn1cclxuICAgIDwvZGl2PlxyXG4gICk7XHJcbn07XHJcblxyXG5leHBvcnQgZGVmYXVsdCBpbmRleDtcclxuIl0sInNvdXJjZVJvb3QiOiIifQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOlsiaW5kZXgiLCJSZWFjdCIsInVzZVN0YXRlIiwiY291bnRlciIsInNldENvdW50ZXIiLCJjb25zb2xlIiwibG9nIiwic3R5bGVzIiwiYnV0dG9uIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFDQTs7QUFFQSxJQUFNQSxLQUFLLEdBQUcsU0FBUkEsS0FBUSxHQUFNO0FBQUE7O0FBQUEsd0JBQ1lDLDRDQUFLLENBQUNDLFFBQU4sQ0FBZSxDQUFmLENBRFo7QUFBQTtBQUFBLE1BQ1hDLE9BRFc7QUFBQSxNQUNGQyxVQURFOztBQUdsQkMsU0FBTyxDQUFDQyxHQUFSLENBQVksSUFBWjtBQUNBLHNCQUNFO0FBQUEsNEJBQ0U7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsYUFERixlQUVFO0FBQVEsZUFBUyxFQUFFQyx3REFBTSxDQUFDQyxNQUExQjtBQUFrQyxhQUFPLEVBQUU7QUFBQSxlQUFNSixVQUFVLENBQUNELE9BQU8sR0FBRyxDQUFYLENBQWhCO0FBQUEsT0FBM0M7QUFBQSwrQkFDYUEsT0FEYjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsYUFGRixFQUtHQSxPQUxIO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQURGO0FBU0QsQ0FiRDs7R0FBTUgsSzs7QUFlU0Esb0VBQWYiLCJmaWxlIjoic3RhdGljL3dlYnBhY2svcGFnZXMvaW5kZXguODI5YjRlNzQ0ZDhkODM0ZmM2NTkuaG90LXVwZGF0ZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCBzdHlsZXMgZnJvbSAnLi9pbmRleC5tb2R1bGUuY3NzJztcclxuXHJcbmNvbnN0IGluZGV4ID0gKCkgPT4ge1xyXG4gIGNvbnN0IFtjb3VudGVyLCBzZXRDb3VudGVyXSA9IFJlYWN0LnVzZVN0YXRlKDApO1xyXG5cclxuICBjb25zb2xlLmxvZygnb2knKTtcclxuICByZXR1cm4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgPGgxPkhlbGxvIFdvcmxkPC9oMT5cclxuICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9e3N0eWxlcy5idXR0b259IG9uQ2xpY2s9eygpID0+IHNldENvdW50ZXIoY291bnRlciArIDEpfT5cclxuICAgICAgICBBZGljaW9uYXIge2NvdW50ZXJ9XHJcbiAgICAgIDwvYnV0dG9uPlxyXG4gICAgICB7Y291bnRlcn1cclxuICAgIDwvZGl2PlxyXG4gICk7XHJcbn07XHJcblxyXG5leHBvcnQgZGVmYXVsdCBpbmRleDtcclxuIl0sInNvdXJjZVJvb3QiOiIifQ==
